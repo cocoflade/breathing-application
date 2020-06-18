@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: lightblue;
+  /* background-color: lightblue; */
   color: lightcoral;
   min-height: 100vh;
   overflow: hidden;
@@ -12,9 +12,15 @@ body {
   align-items: center;
   margin: 0;
 }
-
+#myVideo {
+  position: fixed;
+  right: 30;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -3;
+}
 /*  */
-
 .menu {
   margin: 0;
   padding: 0;
